@@ -1,0 +1,24 @@
+#navbar {
+    flex-direction: column;
+}
+
+#home-section {
+    height: 280px;
+}
+
+#home-section::before {
+    height: 400px;
+}
+#services {
+    /* margin: 0px 34px; */
+    flex-direction: column;
+}
+
+#services .box {
+    overflow: hidden;
+}
+
+
+#clients {
+    overflow: hidden;
+}
