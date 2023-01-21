@@ -1,0 +1,262 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -5px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Navigation - Logo/Img */
+.logo {
+    margin: 0 20px;
+}
+
+.logo video {
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+
+/* Navigation - List styling */
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#navbar li a {
+    color: white;
+    display: block;
+    padding: 0 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#navbar-btn {
+    margin-left: 200px;
+}
+
+/* Section Home */
+#home-section {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 110px;
+    height: 440px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-section::before {
+    content: "";
+    background: url("../img/bg_home.jpeg") no-repeat center center/cover;
+    position: absolute;
+    height: 480px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home-section p {
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#home-section h2 {
+    font-size: 2rem;
+}
+
+/* Section Services */
+#services {
+    display: flex;
+}
+
+#services .box {
+    padding: 30px 20px;
+    margin: 2px 35px;
+    border: 2px solid red;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+#services .box img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+.box h2 {
+    padding: 12px 12px 0 12px;
+}
+
+#services-section h1 {
+    padding: 0px 12px;
+}
+
+/* Section Clients */
+#clients-section {
+    margin-top: 10px;
+}
+
+#clients-section h1 {
+    padding-bottom: 0px;
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients .box {
+    padding: 30px 20px;
+    margin: 2px 35px;
+    border: 2px solid red;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+#clients .box img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#clients .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+#clients .box h2 {
+    padding: 12px 12px 0 12px;
+}
+
+/* Section About */
+#about-section {
+    margin-top: 10px;
+}
+
+#about-section h1 {
+    padding-bottom: 0px;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .box {
+    padding: 30px 20px;
+    margin: 2px 35px;
+    border: 2px solid red;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+#about .box img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#about .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+#about .box h2 {
+    padding: 12px 12px 0 12px;
+}
+
+/* Section Contact */
+#contact-section {
+    margin-top: 10px;
+    padding: 0 20px;
+}
+
+#contact-section h1 {
+    padding-bottom: 0px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contact .box {
+    padding: 30px 20px;
+    margin: 2px 35px;
+    border: 2px solid red;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#contact .box img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#contact .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+#contact .box h2 {
+    padding: 12px 12px 0 12px;
+}
+
+
+
+
+

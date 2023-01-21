@@ -14,7 +14,7 @@ html {
     display: flex;
     align-items: center;
     position: relative;
-    top: -5px;
+    /* top: -5px; */
 }
 
 #navbar::before {
