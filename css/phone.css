@@ -8,15 +8,13 @@
 }
 
 #navbar ul {
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 #navbar li {
     /* padding: 10px; */
     font-size: 1rem;
 }
-
-
 
 #navbar-btn {
     display: block;
@@ -26,6 +24,8 @@
 /* Section Home */
 #home-section {
     height: 100%;
+    margin: 0px;
+    padding: 0px;
     /* padding: 3px 20px; */
 }
 
